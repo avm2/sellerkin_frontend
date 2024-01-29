@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001/api'; // Update with your backend URL
+const BASE_URL = 'https://sellerkin-backend-demo.onrender.com/api'; // Update with your backend URL
 
 const fetchListings = async () => {
   const response = await axios.get(`${BASE_URL}/listings`);
